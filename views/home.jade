@@ -1,0 +1,22 @@
+doctype html
+html(lang="en")
+   head
+    title Chat App
+    script(src='https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js')
+    script(src="/socket.io/socket.io.js")
+    script(src="script.js")
+   body
+    div.container
+     p.
+      Pick a name and start chatting.
+     form(action="javascript:void(0);")
+      input(type='text' autofocus)#nameField
+      button#setNick(type='submit') Set nickname
+     div#entered
+     div#chatEntries
+     div#chatControls
+       form(action="javascript:void(0);")
+        input(type="text", onkeypress="isTyping()")#messageInput
+        button#submit(type='submit') Send message
+     div#typingIndicator(style="visibility: hidden;")
+      p Someone is typing...

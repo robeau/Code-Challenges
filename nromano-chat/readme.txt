@@ -1,5 +1,5 @@
 This was my first time using node.js, socket.io, express, and jade. I used a very basic
-tutorial to get the chat server and client up, and from there I was able to mess
+tutorial (http://code.tutsplus.com/tutorials/using-nodejs-and-websockets-to-build-a-chat-service--net-34482) to get the chat server and client up, and from there I was able to mess
 around and get the hang of how it all works and add the rest of the features.
 
 Next steps would be adding a list of who's online, and notifying the board when 

@@ -1,9 +1,11 @@
-So this was my first time using node.js, express, and jade. I used a very basic
+This was my first time using node.js, socket.io, express, and jade. I used a very basic
 tutorial to get the chat server and client up, and from there I was able to mess
 around and get the hang of how it all works and add the rest of the features.
 
 Next steps would be adding a list of who's online, and notifying the board when 
 someone joins.
+
+app is now live at https://protected-mesa-5264.herokuapp.com/
 
 - N
 

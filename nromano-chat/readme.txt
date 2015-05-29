@@ -12,9 +12,8 @@ app is now live at https://protected-mesa-5264.herokuapp.com/
 ==============================
 Running the app
 ==============================
-To run the app you will need to have node.js, express, and jade installed. The
-node_modules folder had to be removed in order to send the app over email. 
+To run the app you will need to have node.js, express, and jade installed.
 
-C:\code-challenges> node server.js
+C:\nromano-chat> node server.js
 
 Then visit http://127.0.0.1:3000/

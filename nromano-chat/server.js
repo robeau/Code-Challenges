@@ -7,7 +7,7 @@ var io = require('socket.io');          //include sockei.io
 var server = http.createServer(app);
 
 io = io.listen(server);
-server.listen(3000);                    // set to port 3000
+server.listen(process.env.PORT || 3000);                    // set to port 3000
 
 
 io.sockets.on('connection', function (socket) {
